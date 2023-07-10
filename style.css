@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin: 100;
+  padding: 100;
+  font-family: 'Montserrat', sans-serif;
+} 
+html,body{
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  display: flex;
+  background: linear-gradient(45deg,#009245,#FCEE21) no-repeat;
+  background-size: cover;
+  background-position: centre;
+}
+
+.container{
+  padding:20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: transparent;
+  border-radius: 20px;
+  border:10px solid black;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
+
+.container .row{
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+button{
+  padding: 20px ;
+  margin: 10px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-size:large;
+  width:60px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+.button :hover{
+ background-color:#bed1c5;
+}
+
+.sign{
+  background-color: #FFFF00;
+  border: 1px solid white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+button.sign1{
+  background-color: 	#FF5F1F;
+  padding: 20px ;
+  margin: 15px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  width:300px;
+  height: 15px;
+  backdrop-filter: blur(20px);
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  display:flex;
+}
+
+input{
+  position: relative;
+  width: 259px;
+  height: 35px; 
+  margin: 10px;
+  padding:24px;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  border: none;
+  backdrop-filter: blur(80px);
+  background: transparent;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 500;
+  display:flex;
+}
+
+input :hover{
+  backdrop-filter: blur(80px);
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0,0,0,1);
+  border: none;
+  background: transparent;
+}
